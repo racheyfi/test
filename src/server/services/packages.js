@@ -1,4 +1,4 @@
-const Packages = require('../server/models/packages');
+const Packages = require('../models/packages');
 
 const getPackageTree = async (packageName) => {
     return await Packages.aggregate([

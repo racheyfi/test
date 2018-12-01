@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const packageService = require('../../services/packages');
+const packageService = require('../services/packages');
 
 async function getTree(name, version) {
     let root = {};
