@@ -1,0 +1,17 @@
+.snyk_button {
+  outline: none;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  margin: 11px 2px;
+  display: inline;
+  line-height: 22px;
+  background: #6ab7ff;
+  color: #fff;
+  filter: brightness(100%);
+  transition: filter 0.5s linear;
+
+  &:hover {
+    filter: brightness(120%);
+  }
+}
