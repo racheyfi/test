@@ -45,7 +45,7 @@ class App extends React.Component {
             <Card className='packages-app__content__main__empty-state'>
                 <img
                     src="https://snyk.io/wp-content/uploads/Container-Vulnerability-Management-For-Developers-small.png" />
-                <h3>Hey there , Looking for Packages Tree ?</h3>
+                <h3>Hey there , Searching for Packages Tree ?</h3>
             </Card>
         )
     }
