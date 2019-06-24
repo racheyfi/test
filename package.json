@@ -71,7 +71,7 @@
   },
   "dependencies": {
     "array-to-tree": "^3.3.0",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.4",
     "graph-data-structure": "^1.8.0",
     "md5": "^2.2.1",
