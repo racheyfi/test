@@ -1,0 +1,81 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - node-sass > request > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - node-sass > node-gyp > request > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - stylelint > postcss-markdown > remark > unified > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-optipng > optipng-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - jest > jest-cli > jest-runner > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-webp > cwebp-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-gifsicle > gifsicle > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-mozjpeg > mozjpeg > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-optipng > optipng-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-webp > cwebp-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-gifsicle > gifsicle > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-mozjpeg > mozjpeg > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-webp > cwebp-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-gifsicle > gifsicle > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-optipng > optipng-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-mozjpeg > mozjpeg > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-webp > cwebp-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-pngquant > pngquant-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-optipng > optipng-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-gifsicle > gifsicle > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-webp > cwebp-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-optipng > optipng-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+    - image-webpack-loader > imagemin-gifsicle > gifsicle > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-07-24T07:20:44.424Z'
+  'npm:stringstream:20180511':
+    - node-sass > request > stringstream:
+        patched: '2019-07-24T07:20:44.424Z'
+    - node-sass > node-gyp > request > stringstream:
+        patched: '2019-07-24T07:20:44.424Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-07-24T07:20:44.424Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-07-24T07:20:44.424Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-07-24T07:20:44.424Z'
+    - jest > jest-cli > jest-runner > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-07-24T07:20:44.424Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-07-24T07:20:44.424Z'
