@@ -71,7 +71,7 @@
   },
   "dependencies": {
     "mongodb": "^2.2.28",
-    "mongoose": "^4.5.8",
+    "mongoose": "^5.7.4",
     "react-easy-chart": "^1.0.0",
     "react-table": "^6.8.6",
     "react-tree-graph": "^3.2.0",
